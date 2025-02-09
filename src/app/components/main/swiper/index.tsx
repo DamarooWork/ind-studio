@@ -1,6 +1,5 @@
 'use server'
 
-import Pagination from './Pagination'
 import SwiperComp from './SwiperComp'
 import analysis from 'public/icons/header/services/analysis.png'
 import cover from 'public/icons/header/services/cover.png'
@@ -63,7 +62,6 @@ export default async function Index() {
   return (
     <section className=" p-4">
       <SwiperComp data={data} />
-      <Pagination />
     </section>
   )
 }

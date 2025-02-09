@@ -2,16 +2,16 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Slide from './Slide'
 import useDeviceSize from '@/app/hooks/useDeviceSize'
-import 'swiper/css/pagination';
+import 'swiper/css/pagination'
 import 'swiper/css'
-import { Pagination } from 'swiper/modules';
+import { Pagination } from 'swiper/modules'
 export default function SwiperComp({ data }: { data: ISlide[] }) {
   const pagination = {
     clickable: true,
     renderBullet: function (index: number, className: string) {
-      return '<span class="' + className + '">' + (index + 1) + '</span>';
+      return '<span class="' + className + '">' + '</span>'
     },
-  };
+  }
   return (
     <>
       <Swiper
@@ -33,9 +33,15 @@ export default function SwiperComp({ data }: { data: ISlide[] }) {
             slidesPerView: 5,
           },
         }}
+        speed={1500}
+        spaceBetween={16}
         grabCursor={true}
         pagination={pagination}
         modules={[Pagination]}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
       >
         {data.length ? (
           data.map((slide) => (
