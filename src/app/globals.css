@@ -16,7 +16,7 @@ body {
 
 .swiper-wrapper {
   display: flex;
-  .swiper-slide-next {
+  .swiper-slide-next .slide {
     box-shadow: 0px 4px 4px 0px #00000040;
   }
 }

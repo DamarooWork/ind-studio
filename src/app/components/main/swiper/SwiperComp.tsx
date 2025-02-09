@@ -45,7 +45,7 @@ export default function SwiperComp({ data }: { data: ISlide[] }) {
       >
         {data.length ? (
           data.map((slide) => (
-            <SwiperSlide className="" key={slide.id}>
+            <SwiperSlide key={slide.id}>
               <Slide {...slide} />
             </SwiperSlide>
           ))
