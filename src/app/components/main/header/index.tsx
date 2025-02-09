@@ -2,8 +2,8 @@
 export default function Index(){
 
   return (
-   <>
-     header main
-   </>
+   <header>
+     header
+   </header>
   )
 }

@@ -1,9 +1,3 @@
-
-export default function Pagination(){
-
-  return (
-   <>
-     
-   </>
-  )
+export default function Pagination() {
+  return <nav>Pagination</nav>
 }

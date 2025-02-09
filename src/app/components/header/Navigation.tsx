@@ -1,9 +1,11 @@
+import Link from 'next/link'
 
-export default function Navigation(){
-
+export default function Navigation() {
   return (
-   <>
-     Navigation
-   </>
+    <nav className='flex gap-4'>
+      <Link href={'/'}>О школе</Link>
+      <Link href={'/'}>Курсы</Link>
+      <Link href={'/'}>Библиотека</Link>
+    </nav>
   )
 }
