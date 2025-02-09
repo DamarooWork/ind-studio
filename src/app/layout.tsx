@@ -1,3 +1,4 @@
+import Header from './components/header'
 import './globals.css'
 
 export default function RootLayout({
@@ -15,7 +16,10 @@ export default function RootLayout({
         <link rel="icon" href="/icon.jpg" type="image/jpg" />
         <title>IND.studio</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main className="pt-[60px]">{children}</main>
+      </body>
     </html>
   )
 }

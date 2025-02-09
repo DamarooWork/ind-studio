@@ -4,7 +4,7 @@ import Navigation from './Navigation'
 
 export default function Index() {
   return (
-    <header className="sticky top-0 left-0 w-full p-4 h-[60px] flex justify-between items-center border-b-[1px] border-b-[#E1E1E1]">
+    <header className="fixed top-0 left-0 w-full p-4 h-[60px] flex justify-between items-center border-b-[1px] border-b-[#E1E1E1] z-50 bg-[--background] ">
       <Logo />
       <Navigation />
       <Authentication />

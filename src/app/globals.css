@@ -11,4 +11,13 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: 'PP Neue Montreal', sans-serif;
+  overflow-x: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 16px;
+  .swiper-slide-next {
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
 }
