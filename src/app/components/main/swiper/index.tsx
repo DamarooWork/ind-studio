@@ -61,7 +61,7 @@ const data: ISlide[] = [
 ]
 export default async function Index() {
   return (
-    <section className="flex flex-col gap-2 p-4">
+    <section className=" p-4">
       <SwiperComp data={data} />
       <Pagination />
     </section>
