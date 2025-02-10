@@ -4,9 +4,8 @@ import Authentication from './Authentication'
 import { useClickOutside } from '@/app/hooks/useClickOutside'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { TextPlugin } from 'gsap/TextPlugin'
-gsap.registerPlugin(useGSAP, ScrollTrigger, TextPlugin)
+
+gsap.registerPlugin(useGSAP)
 export default function Menu() {
   const ref = useRef<HTMLElement>(null)
   const modal = useRef<HTMLElement>(null)

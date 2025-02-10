@@ -4,6 +4,7 @@ import Authentication from './Authentication'
 import Logo from './Logo'
 import Navigation from './Navigation'
 import Menu from './Menu'
+import Curtain from './Curtain'
 
 export default function Index() {
   const [width] = useDeviceSize()
@@ -18,6 +19,7 @@ export default function Index() {
       ) : (
         <Menu />
       )}
+      <Curtain />
     </header>
   )
 }
