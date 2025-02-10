@@ -1,7 +1,6 @@
 'use client'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Slide from './Slide'
-import useDeviceSize from '@/app/hooks/useDeviceSize'
 import 'swiper/css/pagination'
 import 'swiper/css'
 import { Pagination } from 'swiper/modules'
@@ -50,7 +49,7 @@ export default function SwiperComp({ data }: { data: ISlide[] }) {
             </SwiperSlide>
           ))
         ) : (
-          <p>Нет данных</p>
+          <p>Нет услуг</p>
         )}
       </Swiper>
     </>
