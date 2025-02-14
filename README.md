@@ -10,8 +10,8 @@
 1. Next.js
 2. TailwindCSS
 3. Typescript
-4. Swiper для слайдера
-5. GSAP для анимаций (для анимации при первичном открытии сайт, для меню на телефоне)
+4. Swiper
+5. GSAP
 
 Deploy: https://ind-studio.vercel.app/
 
