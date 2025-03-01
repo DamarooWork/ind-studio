@@ -2,7 +2,7 @@
 
 Запуск программы:
 1. git clone https://github.com/DamarooWork/ind-studio.git
-2. cd only
+2. cd ind-studio
 3. npm i
 4. npm run dev
 
